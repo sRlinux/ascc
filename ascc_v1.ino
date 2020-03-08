@@ -22,7 +22,6 @@ void loop() {
   sensors.requestTemperatures();
   Serial.print(sensors.getTempCByIndex(0));
   Serial.print("\n");
-
   
   delay(1000); 
   while (Serial.available() > 0) {
